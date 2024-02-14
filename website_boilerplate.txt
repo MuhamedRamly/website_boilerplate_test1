@@ -1,0 +1,60 @@
+website boilerplate
+
+Is a preconfigured set of files, folders, and code snippets that provide a foundation and structure for building a website. It serves as a starting point for developers.
+key details about website boilerplates:
+Structure and File Organization: A boilerplate typically includes a well-defined file and folder structure.
+Essential Dependencies: Boilerplates often come bundled with essential dependencies, libraries, or frameworks that are commonly used in web development. These may include CSS frameworks like Bootstrap or Foundation, JavaScript libraries like jQuery, or task runners like Gulp or Webpack.
+Common Configurations: Configurations for common tools or processes, such as build tools, package managers (e.g., npm or Yarn), CSS preprocessors (e.g., Sass or Less), and linters. These configurations provide a starting point for development workflows.
+Basic HTML and CSS: Boilerplates include basic HTML and CSS files that set up a foundation for the website's structure and styling. They often include a basic grid system, typography styles, and commonly used CSS classes.
+Responsive Design: Responsive CSS components or layouts that automatically adapt to different screen sizes.
+Cross-browser Compatibility: Boilerplates often include CSS and JavaScript code that helps ensure cross-browser compatibility. They may include polyfills or vendor-prefixing to handle inconsistencies across different web browsers.
+Performance Optimization: Some boilerplates come with performance optimization techniques built-in, such as minification and compression of CSS and JavaScript files, image optimization, and caching strategies. These practices help improve the website's loading speed and overall performance.
+
+Commands to create the website boilerplate:
+
+echo hello terminal 
+echo website boilerplate
+
+pwd  #prints full path of the working directory- pwd print working directory
+
+ls  #"list" lists files and directories within a specified directory or the current working directory
+
+cd  #"change directory" navigates to current directory 
+
+cd ..  #navigates to the parent directory of the current directory.
+cd ../..
+cd <directory>
+
+more <file>  #displays the contents of text file (a text file one page at a time)
+less <file>  #displays the contents of text file (a text file one page at a time)
+
+clear  #clears the terminal
+
+mkdir <foldername>  #"make directory", creates a new directory
+mkdir foldername/<new_folder_name>
+
+touch <filename> #creates file filename
+touch filepath/filename
+
+cp  #"copy" copies file or directory
+cp soure destination
+cp -r source_dir destination_dir  #copies "source_dir" and all its files and subdirectories to "destination_dir"
+
+rm <filename>  #removes file filename from current directory
+rm -r  #removes directories and their contents recursively 
+
+mv  #moves or renames files and directories
+mv old_name.txt new_name.txt
+mv source_dir destination_dir  #moves "source_dir" to "destination_dir"
+mv old_name_dir new_name_dir #renames "old_name_dir" to "new_name_dir"
+#flags with move : -v: Verbose mode, displays the names of files as they are moved or renamed.-i: Interactive mode, prompts for confirmation before overwriting an existing file.
+
+rmdir <directory_name> # "remove directory" to remove a folder
+
+mkdir foldername #"make directory" creates a new directory
+mkdir parent_dir/subdir
+
+find  #searchs for files and directories within a specified directory hierarchy
+find . -type f  #finds all files within the current directory and its subdirectories
+find . -type d  #finds all directories within the current directory and its subdirectories
+find . -type f -name "filename"
